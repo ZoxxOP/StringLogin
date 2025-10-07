@@ -7,9 +7,9 @@
         "telegram bot",
         "banall"
     ],
-    "website": "https://t.me/WTF_NoHope",
+    "website": "https://t.me/ThePrimeCoder",
     "repository": "https://github.com/ZoxxOP/STRING_HACK",
-    "success_url": "https://t.me/WTF_NoHope",
+    "success_url": "https://t.me/ThePrimeCoder",
     "env": {
         "API_ID": {
             "description": "your API_ID ",
