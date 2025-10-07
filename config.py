@@ -8,4 +8,4 @@ class Config:
     TOKEN = os.environ.get("TOKEN", None)
     MONGO_URL = "mongodb+srv://Akash:SanataniAkash@sanataniakash.co9sxq5.mongodb.net/?retryWrites=true&w=majority&appName=SanataniAkash"
     START_PIC = "https://files.catbox.moe/ppvvg0.jpg"
-    SUDOERS = filters.user(["8258452998"])
+    SUDOERS = filters.user(["7803657513"])
