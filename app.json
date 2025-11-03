@@ -1,6 +1,6 @@
 {
-    "name": "𝐀𝐊𝐀𝐒𝐇 𝗛𝗔𝗖𝗞 𝗕𝗢𝗧",
-    "description": "𝗧𝗛𝗜𝗦 𝗕𝗢𝗧 𝗠𝗔𝗞𝗘 𝗕𝗬 𝐀𝐍𝐀𝐍𝐘𝐀 𝐁𝐎𝐓𝐒",
+    "name": "𝐀𝐊𝐀𝐒𝐇 𝐒𝐓𝐑𝐈𝐍𝐆 𝐋𝐎𝐆𝐈𝐍",
+    "description": "𝐓𝐇𝐈𝐒 𝐁𝐎𝐓 𝐌𝐀𝐊𝐄 𝐁𝐘 𝐀𝐍𝐀𝐍𝐘𝐀 𝐁𝐎𝐓𝐒",
     "logo": "",
     "keywords": [
         "pytgcalls",
@@ -8,7 +8,7 @@
         "banall"
     ],
     "website": "https://t.me/ThePrimeCoder",
-    "repository": "https://github.com/ZoxxOP/STRING_HACK",
+    "repository": "https://github.com/ZoxxOP/StringLogin",
     "success_url": "https://t.me/ThePrimeCoder",
     "env": {
         "API_ID": {
