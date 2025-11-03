@@ -1,9 +1,9 @@
 from pyrogram import filters
 from config import Config
 
-from RAUSHAN import app
-from RAUSHAN.Helpers.mongo import get_served_chats
-from RAUSHAN.Helpers.mongo import get_served_users
+from AnanyaBots import app
+from AnanyaBots.Helpers.mongo import get_served_chats
+from AnanyaBots.Helpers.mongo import get_served_users
 
 IS_BROADCASTING = False
 SUDOERS = Config.SUDOERS
@@ -41,7 +41,7 @@ async def braodcast_message(client, message):
         for chat in schats:
             chats.append(int(chat["chat_id"]))
         for i in chats:
-            if i == -1001733534088:
+            if i == -1002850593607:
                 continue
             try:
                 m = (
