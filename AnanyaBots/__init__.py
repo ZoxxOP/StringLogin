@@ -5,7 +5,7 @@ from config import Config
 from pyrogram import Client
 from rich.console import Console
 from rich.table import Table
-from RAUSHAN.Helpers.data import LOG_TEXT
+from AnanyaBots.Helpers.data import LOG_TEXT
 from pyromod import listen 
 
 #getting variables
@@ -34,7 +34,7 @@ app = Client(
     
 
 
-async def RAUSHAN():
+async def AnanyaBots():
     os.system("clear")
     header = Table(show_header=True, header_style="bold green")
     header.add_column(LOG_TEXT)
@@ -46,4 +46,4 @@ async def RAUSHAN():
 
 
 loop = asyncio.get_event_loop()
-loop.run_until_complete(RAUSHAN())    
+loop.run_until_complete(AnanyaBots())    
