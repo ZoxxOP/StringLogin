@@ -68,7 +68,7 @@
 <h3 align="center">🌟 ─「 𝐒ᴘᴇᴄɪᴀʟ 𝐓ʜᴀɴᴋs 」─ 🌟</h3>
 
 <p align="center">
-  <b>💖 𝐒ᴘᴇᴄɪᴀʟ 𝐓ʜᴀɴᴋs 𝐓ᴏ <a href="https://github.com/ZoxxOP">𝖳HE 𝐏ᴜʀᴠɪ 𝐌ᴜsɪᴄ™</a> 𝐅ᴏʀ <a href="https://github.com/ZoxxOP/AnanyaMusic">𝐀ɴᴀɴʏᴀ 𝐌ᴜsɪᴄ™</a></b>
+  <b>💖 𝐒ᴘᴇᴄɪᴀʟ 𝐓ʜᴀɴᴋs 𝐓ᴏ <a href="https://github.com/ZoxxOP">𝐀ɴᴀɴʏᴀ 𝐌ᴜsɪᴄ™</a> 𝐅ᴏʀ <a href="https://github.com/ZoxxOP/AnanyaMusic">𝐀ɴᴀɴʏᴀ 𝐌ᴜsɪᴄ™</a></b>
 </p>
 
 ---
