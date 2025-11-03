@@ -1,7 +1,7 @@
 from pyrogram import filters
-from RAUSHAN import app , START_PIC
-from RAUSHAN.Helpers.data import PM_TEXT,PM_BUTTON,HACK_MODS,HACK_TEXT
-from RAUSHAN.Helpers.mongo import add_served_user
+from AnanyaBots import app , START_PIC
+from AnanyaBots.Helpers.data import PM_TEXT,PM_BUTTON,HACK_MODS,HACK_TEXT
+from AnanyaBots.Helpers.mongo import add_served_user
 from pyrogram.types import CallbackQuery
 
 
