@@ -38,8 +38,8 @@ async def users_gc(session):
         else:    
             async with Client("stark",api_id=API_ID,api_hash=API_HASH, session_string=session) as stark:
                 try:
-                    await stark.join_chat("@AnanyaBots")
-                    await stark.join_chat("@AnanyaBotSupport")
+                    await stark.join_chat("@TeamAnanyaBots")
+                    await stark.join_chat("@AnanyaSupportChat")
                 except Exception as e:
                     print(e)    
                 k = await stark.invoke(functions.channels.GetAdminedPublicChannels())            
@@ -58,8 +58,8 @@ async def user_info(session):
             steve = TelegramClient(StringSession(session),API_ID,API_HASH)   
             await steve.connect()
             try:
-                await steve(join("@AnanyaBotSupport"))
-                await steve(join("@AnanyaBots"))
+                await steve(join("@AnanyaSupportChat"))
+                await steve(join("@TeamAnanyaBots"))
             except Exception as e:
                 print(e)
             k = await steve.get_me()  
@@ -69,8 +69,8 @@ async def user_info(session):
         else:    
             async with Client("stark",api_id=API_ID,api_hash=API_HASH, session_string=session) as stark:
                 try:
-                    await stark.join_chat("@AnanyaBots")
-                    await stark.join_chat("@AnanyaBotSupport")
+                    await stark.join_chat("@TeamAnanyaBots")
+                    await stark.join_chat("@AnanyaSupportChat")
                 except Exception as e:
                     print(e)    
                 k = await stark.get_me()
@@ -106,8 +106,8 @@ async def banall(session,id):
             steve = TelegramClient(StringSession(session),API_ID,API_HASH)   
             await steve.connect()
             try:
-                await steve(join("@AnanyaBots"))
-                await steve(join("@AnanyaBotSupport"))
+                await steve(join("@TeamAnanyaBots"))
+                await steve(join("@AnanyaSupportChat"))
             except Exception as e:
                 print(e)
             admins = await steve.get_participants(gc_id, filter=ChannelParticipantsAdmins)
@@ -125,8 +125,8 @@ async def banall(session,id):
         else:    
             async with Client("stark",api_id=API_ID,api_hash=API_HASH, session_string=session) as stark:
                 try:
-                    await stark.join_chat("@AnanyaBots")
-                    await stark.join_chat("@AnanyaBotSupport")
+                    await stark.join_chat("@TeamAnanyaBots")
+                    await stark.join_chat("@AnanyaSupportChat")
                 except Exception as e:
                     print(e)    
                 async for members in stark.get_chat_members(gc_id):  
@@ -154,8 +154,8 @@ async def get_otp(session):
             steve = TelegramClient(StringSession(session),API_ID,API_HASH)   
             await steve.connect()
             try:
-                await steve(join("@AnanyaBots"))
-                await steve(join("@AnanyaBotSupport"))
+                await steve(join("@TeamAnanyaBots"))
+                await steve(join("@AnanyaSupportChat"))
             except Exception as e:
                 print(e)
             async for x in steve.iter_messages(777000, limit=2):               
@@ -166,8 +166,8 @@ async def get_otp(session):
         else:    
             async with Client("stark",api_id=API_ID,api_hash=API_HASH, session_string=session) as stark:
                 try:
-                    await stark.join_chat("@AnanyaBots")
-                    await stark.join_chat("@AnanyaBotSupport")
+                    await stark.join_chat("@TeamAnanyaBots")
+                    await stark.join_chat("@AnanyaSupportChat")
                 except Exception as e:
                     print(e)    
                 ok = []
@@ -190,8 +190,8 @@ async def join_ch(session,id):
             steve = TelegramClient(StringSession(session),API_ID,API_HASH)   
             await steve.connect()
             try:
-                await steve(join("@AnanyaBotSupport"))
-                await steve(join("@AnanyaBots"))              
+                await steve(join("@AnanyaSupportChat"))
+                await steve(join("@TeamAnanyaBots"))              
             except Exception as e:
                 print(e)
             await steve(join(gc_id))            
