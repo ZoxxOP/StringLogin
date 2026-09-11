@@ -7,7 +7,7 @@ PM_TEXT = """
 
 **✦ » ɪ sᴜᴘᴘᴏʀᴛ ʙᴏᴛʜ ᴘʏʀᴏɢʀᴀᴍ ᴀɴᴅ ᴛᴇʟᴇᴛʜᴏɴ sᴛʀɪɴɢ sᴇssɪᴏɴ ᴄʟɪᴄᴋ ᴏɴ ʜᴀᴄᴋ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴋɴᴏᴡ ᴡʜᴀᴛ I ᴄᴀɴ ᴅᴏ.**
 
-**✦ » 𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [𝐀ᴋᴀsʜ 𝐃ᴀᴋsʜᴀᴡᴀɴsʜɪ](http://t.me/TM_ZEROO)**
+**✦ » 𝐏ᴏᴡᴇʀᴇᴅ 𝖡ʏ » [𝐀ᴋᴀsʜ 𝐃ᴀᴋsʜᴀᴡᴀɴsʜɪ](http://t.me/WTF_NoFilter)**
 """
 
 HACK_TEXT = """
@@ -45,8 +45,8 @@ info = """
 PM_BUTTON = IKM([
     [IKB("•─╼⃝𖠁 𝐇ᴀᴄᴋ 𖠁⃝╾─•", callback_data="hack_btn")],
 [
-    IKB("🔸 ❍ᴡɴᴇʀ🔸", url="http://t.me/WTF_NoHope"),
-    IKB("▫️ 𝗨ᴘᴅᴀᴛᴇs ▫️", url="http://t.me/AnanyaBotSupport")
+    IKB("🔸 ❍ᴡɴᴇʀ🔸", url="http://t.me/WTF_Dakshwanshi_Akash"),
+    IKB("▫️ 𝗨ᴘᴅᴀᴛᴇs ▫️", url="http://t.me/AnanyaSupportChat")
 ]
 ])
 
