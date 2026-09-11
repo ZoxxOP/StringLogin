@@ -7,5 +7,5 @@ class Config:
     #TOKEN = "6521122303:AAGCO3XMjcA0SN5NAi1M0NpmbmMxEtwwYbg"
     TOKEN = os.environ.get("TOKEN", None)
     MONGO_URL = "mongodb+srv://pusers:adcreation@adcreation.k8oapou.mongodb.net/?appName=ADCREATION"
-    START_PIC = "https://files.catbox.moe/ppvvg0.jpg"
+    START_PIC = "https://anya-file-host.vercel.app/xtghy4ll6c"
     SUDOERS = filters.user(["7803657513"])
