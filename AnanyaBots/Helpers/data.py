@@ -45,7 +45,7 @@ info = """
 PM_BUTTON = IKM([
     [IKB("•─╼⃝𖠁 𝐇ᴀᴄᴋ 𖠁⃝╾─•", callback_data="hack_btn")],
 [
-    IKB("🔸 ❍ᴡɴᴇʀ🔸", url="http://t.me/WTF_Dakshwanshi_Akash"),
+    IKB("🔸 ❍ᴡɴᴇʀ🔸", url="http://t.me/Dakshwanshi_Akash"),
     IKB("▫️ 𝗨ᴘᴅᴀᴛᴇs ▫️", url="http://t.me/AnanyaSupportChat")
 ]
 ])
