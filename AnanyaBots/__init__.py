@@ -17,7 +17,7 @@ START_PIC = Config.START_PIC
 
 
 if not START_PIC:
-    START_PIC = "https://files.catbox.moe/12p43f.jpg"
+    START_PIC = "https://anya-file-host.vercel.app/xtghy4ll6c"
 
 #rich
 LOG = Console()
